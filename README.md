@@ -24,7 +24,7 @@ int main()
 
     std::cout << ToUpper(text) << std::endl;
     std::cout << ToLower(text) << std::endl;
-    std::cout << CapitalizeFirst(text) << std::endl;
+    std::cout << Capitalize(text) << std::endl;
 }
 
 🇷🇺 Русский

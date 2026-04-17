@@ -9,8 +9,13 @@ int main() {
     std::cout << "Enter text: ";
     std::getline(std::cin, text);
 
+    // Capitalize
     std::cout << Capitalize(text);
+
+    // ToUpper
     std::cout << ToUpper(text);
+
+    // ToLower
     std::cout << ToLower(text);
 
 

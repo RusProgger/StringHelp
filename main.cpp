@@ -18,8 +18,9 @@ int main() {
     // ToLower
     std::cout << ToLower(text) << "\n";
 
-
+    std::cout << "Please press any key to exit...";
     // pause 
+    
     std::cin.get();
     return 0;
 }

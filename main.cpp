@@ -7,5 +7,7 @@ int main() {
 
     std::string text {};
 
+    std::cout << text;
+
     return 0;
 }

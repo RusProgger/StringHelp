@@ -10,13 +10,13 @@ int main() {
     std::getline(std::cin, text);
 
     // Capitalize
-    std::cout << Capitalize(text);
+    std::cout << Capitalize(text) << "\n";
 
     // ToUpper
-    std::cout << ToUpper(text);
+    std::cout << ToUpper(text) << "\n";
 
     // ToLower
-    std::cout << ToLower(text);
+    std::cout << ToLower(text) << "\n";
 
 
     // pause 

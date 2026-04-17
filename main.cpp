@@ -12,6 +12,9 @@ int main() {
     std::cout << Capitalize(text);
     std::cout << ToUpper(text);
     std::cout << ToLower(text);
+
+
+    // pause 
     
     return 0;
 }

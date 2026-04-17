@@ -15,6 +15,6 @@ int main() {
 
 
     // pause 
-    
+    std::cin.get();
     return 0;
 }

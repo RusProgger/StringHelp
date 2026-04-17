@@ -19,8 +19,8 @@ int main() {
     std::cout << ToLower(text) << "\n";
 
     std::cout << "Please press any key to exit...";
-    // pause 
-    
+     
+    std::cin.ignore();
     std::cin.get();
     return 0;
 }

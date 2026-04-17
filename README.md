@@ -17,7 +17,6 @@ Just include StringHelp.h in your project.
 Example:
 
 #include "StringHelp.h"
-#include <iostream>
 
 int main()
 {

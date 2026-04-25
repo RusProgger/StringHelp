@@ -1,21 +1,41 @@
-# StringHelp (C++)
+# 🔤 StringHelp (C++)
 
-A lightweight header-only C++ library for simple string case manipulation.
+Lightweight **header-only C++ library** for simple string case manipulation.
 
-🇬🇧 English
+---
 
-This library provides simple functions for working with text case in C++.
+## 🌍 Languages
 
-Features:
-- Convert text to UPPERCASE
-- Convert text to lowercase
-- Capitalize the first letter of a string
+* 🇬🇧 English
+* 🇷🇺 Русский
+* 🇺🇦 Українська
 
-Usage:
-Just include StringHelp.h in your project.
+---
 
-Example:
+## 🇬🇧 English
 
+### 📌 Description
+
+**StringHelp** provides a minimal set of utilities for working with string case in C++.
+
+### ✨ Features
+
+* Convert text to **UPPERCASE**
+* Convert text to **lowercase**
+* **Capitalize** the first letter of a string
+
+### 🚀 Usage
+
+Simply include the header file in your project:
+
+```cpp
+#include "StringHelp.h"
+```
+
+### 💡 Example
+
+```cpp
+#include <iostream>
 #include "StringHelp.h"
 
 int main()
@@ -24,29 +44,66 @@ int main()
 
     std::cout << ToUpper(text) << std::endl;
     std::cout << ToLower(text) << std::endl;
-    std::cout << CapitalizeFirst(text) << std::endl;
+    std::cout << Capitalize(text) << std::endl;
+
+    return 0;
 }
+```
 
-🇷🇺 Русский
+---
 
-Эта библиотека предоставляет простые функции для работы с регистром текста в C++.
+## 🇷🇺 Русский
 
-Возможности:
-- Перевод текста в ВЕРХНИЙ РЕГИСТР
-- Перевод текста в нижний регистр
-- Капитализация первой буквы строки
+### 📌 Описание
 
-Использование:
-Просто подключите StringHelp.h к своему проекту.
+**StringHelp** — это лёгкая header-only библиотека для работы с регистром строк в C++.
 
-🇺🇦 Українська
+### ✨ Возможности
 
-Ця бібліотека надає прості функції для роботи з регістром тексту в C++.
+* Перевод текста в **ВЕРХНИЙ РЕГИСТР**
+* Перевод текста в **нижний регистр**
+* **Капитализация** первой буквы строки
 
-Можливості:
-- Перетворення тексту у ВЕРХНІЙ РЕГІСТР
-- Перетворення тексту у нижній регістр
-- Капіталізація першої літери рядка
+### 🚀 Использование
 
-Використання:
-Просто підключіть StringHelp.h до свого проєкту.
+Просто подключите заголовочный файл:
+
+```cpp
+#include "StringHelp.h"
+```
+
+---
+
+## 🇺🇦 Українська
+
+### 📌 Опис
+
+**StringHelp** — це легка header-only бібліотека для роботи з регістром рядків у C++.
+
+### ✨ Можливості
+
+* Перетворення тексту у **ВЕРХНІЙ РЕГІСТР**
+* Перетворення тексту у **нижній регістр**
+* **Капіталізація** першої літери рядка
+
+### 🚀 Використання
+
+Просто підключіть заголовочний файл:
+
+```cpp
+#include "StringHelp.h"
+```
+
+---
+
+## 📦 Installation
+
+Just copy `StringHelp.h` into your project and include it.
+
+---
+
+## 📝 License
+
+MIT License (or specify your license here)
+
+---

@@ -104,6 +104,10 @@ Just copy `StringHelp.h` into your project and include it.
 
 ## 📝 License
 
-MIT License (or specify your license here)
+MIT License
+
+Copyright (c) 2026 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
 
 ---

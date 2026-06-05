@@ -74,7 +74,7 @@ int main()
 
 ---
 
-## 📝 License
+## 📝 Лицензия
 
 Проект распространяется по лицензии MIT.
 
@@ -108,7 +108,7 @@ Just copy `StringHelp.h` into your project and include it.
 
 ---
 
-## 📝 License
+## 📝 Ліцензія
 
 Проєкт поширюється за ліцензією MIT.
 

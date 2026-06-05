@@ -52,6 +52,14 @@ int main()
 
 ---
 
+---
+
+## 📝 License
+
+Licensed under the MIT License.
+
+---
+
 ## 🇷🇺 Русский
 
 ### 📌 Описание

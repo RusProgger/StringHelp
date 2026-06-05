@@ -36,7 +36,6 @@ inline std::string Capitalize(std::string text)
     if (text.empty())
         return text;
 
-    
     std::transform(text.begin(), text.end(), text.begin(),
         [](unsigned char c) {
             return std::tolower(c);
